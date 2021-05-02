@@ -1,0 +1,3 @@
+# Statistical-Analysis-ReRAM-Neural-Network
+The following code can be used after training the neural network (NN) and obtaining all the trained weights for all layers. After that, the network weights are mapped into conductance values given the available physical range of the ReRAM device and that all weights should be positive. Also, the input testing patterns from the data set are mapped into appropriate voltages. The number of inputs, outputs and layers are data set and design dependent. The number of
+samples, can be considered as the number of wafers, are decided by the user. Also the variation of the mapped weight around the mean is controlled by the variable var. The number of quantization levels assumed is allocated by
